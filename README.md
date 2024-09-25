@@ -39,11 +39,17 @@ Repositório para armazenar resumos sobre Git e Github.
 | git reset --hard ___hash___ | Desfaz o último commit e as alterações |
 | git reset ___file___ | Remove um arquivo do stage |
 
-### 🔄 Atualizando repositório
+### ⬆️ Atualizando repositório remoto
 
 | Comando | Função |
 | ----- | ------- |
 | git push (-u / --set-upstream) ___remote___ ___branch___ | Envia as alterações para o repositório remoto |
+
+### ⬇️ Atualizando repositório local
+
+| Comando | Função |
+| ----- | ------- |
+| git pull ___remote___ ___branch___ | Atualiza o repositório local com as alterações do repositório remoto |
 
 
 ### 🔎 Monitorando alterações
