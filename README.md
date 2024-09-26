@@ -14,7 +14,7 @@ Repositório para armazenar resumos sobre Git e Github.
 | ----- | ------- |
 | git init | Inicializa um repositório git |
 | git clone ___URL___ ___repoName___ | Clona um repositório remoto com um nome de sua escolha|
-| git clone ___URL___ --branch ___branchName___ --single-branch | Clona um repositório remoto com um branch específico |
+| git clone ___URL___ --branch ___branchName___ --single-branch | Clona um repositório remoto com uma branch específica |
 | git remote -v | Lista os repositórios remotos |
 | git remote add ___name___ ___URL___ | Adiciona um repositório remoto |
 
@@ -50,6 +50,7 @@ Repositório para armazenar resumos sobre Git e Github.
 | Comando | Função |
 | ----- | ------- |
 | git pull ___remote___ ___branch___ | Atualiza o repositório local com as alterações do repositório remoto |
+| git fetch ___remote___ ___branch___ | Atualiza o repositório local com as alterações do repositório remoto, mas não faz merge |
 
 
 ### 🔎 Monitorando alterações
@@ -59,6 +60,19 @@ Repositório para armazenar resumos sobre Git e Github.
 | git status | Mostra o status do repositório |
 | git log | Mostra o histórico de commits |
 | git reflog | Mostra o histórico de commits e operações |
+| git diff ___localBranch___ ___remoteBranch___ | Mostra as diferenças entre duas branches |
+
+### 🌳 Branches
+
+| Comando | Função |   
+| ----- | ------- |
+| git branch | Lista as branches |
+| git branch -v | Lista as branches com os últimos commits |
+| git branch -d ___branchName___ | Deleta uma branch |
+| git checkout ___branchName___ | Muda para uma branch |
+| git checkout -b ___branchName___ | Cria uma nova branch e muda para ela |
+| git merge ___branchName___ | Faz o merge de uma branch com a branch atual |
+
 
 
 ## 📁 Arquivos/Pastas específicos do Git
