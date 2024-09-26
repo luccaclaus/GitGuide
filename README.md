@@ -73,6 +73,15 @@ Repositório para armazenar resumos sobre Git e Github.
 | git checkout -b ___branchName___ | Cria uma nova branch e muda para ela |
 | git merge ___branchName___ | Faz o merge de uma branch com a branch atual |
 
+### 📦 Stash
+
+| Comando | Função |
+| ----- | ------- |
+| git stash | Salva as alterações em um stash |
+| git stash list | Lista os stashes |
+| git stash apply | Aplica o último stash sem excluir o registro da pilha |
+| git stash pop | Aplica o último stash e exclui o registro da pilha |
+
 
 
 ## 📁 Arquivos/Pastas específicos do Git
