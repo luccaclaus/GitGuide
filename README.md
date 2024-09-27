@@ -92,6 +92,10 @@ Repositório para armazenar resumos sobre Git e Github.
 
 - .gitkeep - Arquivo que permite manter diretórios vazios no git.
 
+- README.md - Arquivo que contém informações sobre o repositório.
+
+- CONTRIBUTING.md - Arquivo que contém informações sobre como contribuir com o repositório.
+
 ## 🔀 Atalhos
 
 "." (na página do repositório no Github) - Abre editor de código no navegador.
